@@ -4,7 +4,7 @@ import {createTheme} from "@mui/material/styles";
 import {useMemo} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/navbar";
-import Dashboard from "./pages/dashboard/Dashboard";
+import Dashboard from "./pages/dashboard";
 import Predictions from "./pages/predictions/Predictions";
 import {themeSettings} from "./theme";
 

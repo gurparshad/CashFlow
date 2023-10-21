@@ -5,7 +5,7 @@ import {useMemo} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/navbar";
 import Dashboard from "./pages/dashboard";
-import Predictions from "./pages/predictions/Predictions";
+import Predictions from "./pages/predictions";
 import {themeSettings} from "./theme";
 
 function App() {

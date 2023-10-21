@@ -5,6 +5,7 @@ import {
   GetTransactionsResponse,
 } from "./types";
 
+// axios implementation is much better.
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
   reducerPath: "main",

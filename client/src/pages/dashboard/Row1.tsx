@@ -1,7 +1,11 @@
 import DashboardBox from "@/components/styled-components/DashboardBox";
+import {useGetKpisQuery} from "@/state/api";
 import React from "react";
 
 const Row1 = () => {
+  const {data} = useGetKpisQuery();
+  console.log("🚀 ~ file: Row1.tsx:7 ~ Row1 ~ data:", data);
+
   return (
     <>
       <DashboardBox gridArea="a"></DashboardBox>

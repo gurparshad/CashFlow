@@ -1,6 +1,6 @@
 import BoxHeader from "@/components/styled-components/BoxHeader";
 import DashboardBox from "@/components/styled-components/DashboardBox";
-import {useGetKpisQuery} from "@/state/api";
+import {useGetKpisQuery} from "@/state/api2";
 import {useMemo} from "react";
 import {useTheme} from "@mui/material";
 import {
@@ -33,8 +33,6 @@ const Row1 = () => {
       })
     );
   }, [data]);
-
-  console.log("revenue-->>", revenue);
 
   const revenueExpenses = useMemo(() => {
     return (

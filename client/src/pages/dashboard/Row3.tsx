@@ -1,7 +1,7 @@
 import BoxHeader from "@/components/styled-components/BoxHeader";
 import DashboardBox from "@/components/styled-components/DashboardBox";
 import FlexBetween from "@/components/styled-components/FlexBetween";
-import {useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery} from "@/state/api";
+import {useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery} from "@/state/api2";
 import {Box, Typography, useTheme} from "@mui/material";
 import {DataGrid, GridCellParams} from "@mui/x-data-grid";
 import React, {useMemo} from "react";

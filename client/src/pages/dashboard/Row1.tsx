@@ -21,7 +21,6 @@ import {
 const Row1 = () => {
   const {palette} = useTheme();
   const {data} = useGetKpisQuery();
-  console.log("🚀 ~ file: Row1.tsx:7 ~ Row1 ~ data:", data);
 
   const revenue = useMemo(() => {
     return (
@@ -34,6 +33,8 @@ const Row1 = () => {
       })
     );
   }, [data]);
+
+  console.log("revenue-->>", revenue);
 
   const revenueExpenses = useMemo(() => {
     return (

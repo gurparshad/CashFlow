@@ -15,7 +15,6 @@ const Row3 = () => {
   const {data: kpiData} = useGetKpisQuery();
   const {data: productData} = useGetProductsQuery();
   const {data: transactionData} = useGetTransactionsQuery();
-  console.log("🚀 ~ file: Row3.tsx:17 ~ Row3 ~ transactionData:", transactionData);
 
   const pieChartData = useMemo(() => {
     if (kpiData) {
